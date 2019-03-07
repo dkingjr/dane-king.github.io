@@ -10,8 +10,11 @@ Welcome to my site. Hopefully you find some of this information useful. Although
     <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
 {% endif %}
 
-Useful Links - things I find useful for developing
+### Links I find useful
 
 - [Learn Github branch](https://learngitbranching.js.org/)
-  - Good visual tool to learn Git, I like that you can see what git is doing with different commands
+  - Good visual tool to learn Git, I like that you can see what git is doing with different commands. The sandbox is so useful when you are trying out something.
+- [Learn Flexbox](https://flexboxfroggy.com/)
+  - Good visual tool to learn Flexbox and it's fun too. I still go back to this ever once in awhile.
+
 
