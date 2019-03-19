@@ -1,0 +1,13 @@
+#UI
+##NPM
+### Setup NPM so you don't need sudo
+[Source] (http://michaelb.org/the-right-way-to-do-global-npm-install-without-sudo/)
+
++ Step 1: Configure NPM
+  + npm config set prefix ~/.local  
+  + Now NPM will install your global executables to ~/.local/bin, and the libraries to ~/.local/lib/node_modules/
+
++ Step 2: Add ~/.local/bin to your path
+  + edit ~/.bashrc:
+  + PATH=~/.local/bin/:$PATH
+  + source ~/.bashrc
